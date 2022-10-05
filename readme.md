@@ -5,4 +5,4 @@ example1.cpp output:
 
 example2.cpp output:
 
-![image](https://user-images.githubusercontent.com/59770659/194126141-373d174d-9b56-4337-9ec5-4eb0cda0d7e7.png)
+![image](https://user-images.githubusercontent.com/59770659/194126297-60f169bf-d6c2-4c93-8036-bf596770d270.png)
