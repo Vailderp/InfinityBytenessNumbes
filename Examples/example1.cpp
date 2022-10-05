@@ -63,8 +63,13 @@ int main()
     duration<double, std::nano> ms_double = t2 - t1;
     std::cout << ms_int.count() << "ns\n";
 
-    std::cout << "Binary : " << BdtnCeilNumberToBinStr(CEIL1) << std::endl; // Write binary value in console
-    std::cout << "Decimal: " << BdtnCeil8421BCDNumberToDecStr(BCD1) << std::endl; // Write decimal value in console
+    std::cout << "Binary : " << BdtnCeilNumberToBinStr(CEIL2) << " + " 
+        << BdtnCeilNumberToBinStr(CEIL3) << " = " 
+        << BdtnCeilNumberToBinStr(CEIL1) << std::endl; // Write binary values in console
+
+    std::cout << "Decimal: " << BdtnCeil8421BCDNumberToDecStr(BCD2) << " + " 
+        << BdtnCeil8421BCDNumberToDecStr(BCD3) << " = " 
+        << BdtnCeil8421BCDNumberToDecStr(BCD1) << std::endl; // Write decimal value in console
 
     BdtnDestroyCeil8421BCDNumber(BCD1);
     BdtnDestroyCeil8421BCDNumber(BCD2);
